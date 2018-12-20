@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test  name="Test1">
+  <parameter name="fname" value="a"></parameter>
+  <parameter name="lname" value="b"></parameter>
+  <parameter name="pname" value="c"></parameter>
+  <parameter name="ename" value="d"></parameter>
+  <parameter name="add1" value="e"></parameter>
+  <parameter name="add2" value="f"></parameter>
+  <parameter name="city" value="g"></parameter>
+  <parameter name="state" value="h"></parameter>
+  <parameter name="postal" value="i"></parameter>
+  <parameter name="country" value="INDIA"></parameter>
+    <classes>
+      <class name="newtours.Dataprovidersameclass"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Test2">
+  <parameter name="fname" value="a"></parameter>
+  <parameter name="lname" value="b"></parameter>
+  <parameter name="pname" value="c"></parameter>
+  <parameter name="ename" value="d"></parameter>
+  <parameter name="add1" value="e"></parameter>
+  <parameter name="add2" value="f"></parameter>
+  <parameter name="city" value="g"></parameter>
+  <parameter name="state" value="h"></parameter>
+  <parameter name="postal" value="i"></parameter>
+  <parameter name="country" value="INDIA"></parameter>
+    <classes>
+      <class name="newtours.Dataprovidersameclass"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->

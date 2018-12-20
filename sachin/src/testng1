@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test1">
+    <parameter name="searchword" value="kalam"/>
+    <classes>
+      <class name="tests.DataFromSuite"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+    <parameter name="searchword" value="mother"/>
+    <classes>
+      <class name="tests.DataFromSuite"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test3">
+    <parameter name="searchword" value="father"/>
+    <classes>
+      <class name="tests.DataFromSuite"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
