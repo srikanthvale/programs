@@ -29,8 +29,8 @@ public class Way2sms
 		  driver.findElement(By.name("password")).sendKeys("1234",Keys.ENTER);
 		  WebDriverWait wait=new WebDriverWait(driver,20);
 		  wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("toMobile")));
-		  driver.findElement(By.name("toMobile")).sendKeys("7207219809");
-		  driver.findElement(By.name("message")).sendKeys("madda kuduvu");
+		  driver.findElement(By.name("toMobile")).sendKeys("8341111338 ");
+		  driver.findElement(By.name("message")).sendKeys("Hi nmestelaa");
 		  driver.findElement(By.xpath("(//button[@type='button'])[7]")).click();
 	  }
 	  @AfterMethod
